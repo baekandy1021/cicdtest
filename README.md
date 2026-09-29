@@ -9,7 +9,7 @@ A minimal app and CI pipeline for teaching CI/CD.
 - `Dockerfile` — builds container image  
 - `deploy.sh` — simulates deployment (prints environment + SHA)  
 - `.github/workflows/ci-template.yml` — GitHub Actions workflow (unit tests, build, publish artifact, simulated deploy)  
-- `requirements.txt`
+- `app/requirements.txt`
 
 ## Student tasks
 
@@ -22,7 +22,7 @@ A minimal app and CI pipeline for teaching CI/CD.
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r app/requirements.txt
 ```
 
 Run the app:
